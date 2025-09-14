@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World from Spring Boot with Java 17!";
+        return "Hello, World from Spring Boot with Java 17! with automated jenkins ci/cd pipeline";
     }
 }
